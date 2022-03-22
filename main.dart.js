@@ -79370,7 +79370,7 @@ s=K.FB(8)
 s=D.axI(L.cH("\u062f\u062e\u0648\u0644",o,o,o,o,A.cb(o,o,C.x,o,o,o,o,o,m,o,o,a0.L(i).f.a.b/35,o,o,o,o,!0,o,o,o,o,o,o),o,o),C.j,new F.ahm(p),new X.e6(s,C.A),C.x)
 d=E.ay4(M.bi(o,T.arQ(C.lF,H.a([new T.bG(C.n7,c,o),new T.bG(C.n7,b,o),new T.bG(C.Bl,M.bi(o,new M.q8(M.aqd(!1,o,o,o,o,60,o,o,C.mu,o,88,o,o,o,C.c3),new T.bG(C.aG,s,o),o),C.o,o,o,o,o,o,o,o,o,o,r.a.a/2),o)],f),C.il,C.m,0),C.o,o,o,o,o,o,o,o,o,o,d.a.a))
 r=L.cH("\u0627\u0644\u0627\u0633\u0643\u0646\u062f\u0631\u064a\u0629 \u0644\u0644\u0646\u0642\u0644 \u0627\u0644\u0628\u0631\u0649",o,o,o,o,A.cb(o,o,C.j,o,o,o,o,o,l,o,o,a0.L(i).f.a.b/30,o,C.Y,o,o,!0,o,o,o,o,o,o),o,o)
-s=L.cH(" 5 / 2 / 2022",o,o,o,o,A.cb(o,o,C.j,o,o,o,o,o,l,o,o,a0.L(i).f.a.b/30,o,C.Y,o,o,!0,o,o,o,o,o,o),o,o)
+s=L.cH("V 1.0.1",o,o,o,o,A.cb(o,o,C.j,o,o,o,o,o,l,o,o,a0.L(i).f.a.b/30,o,C.Y,o,o,!0,o,o,o,o,o,o),o,o)
 b=K.iZ(new P.ba(100,100))
 return M.abB(o,o,M.bi(o,T.j1(T.k7(H.a([new K.G2(new T.bG(C.aG,g,o),C.j,h.a.b/11,o),e,d,new T.bG(C.aG,r,o),new T.bG(C.aG,s,o),new T.bG(C.aG,T.eo(H.a([M.bi(o,new T.bG(C.aG,U.awi("assets/logo2.jpg",a0.L(i).f.a.b/20,a0.L(i).f.a.a/15),o),C.o,o,o,new S.cl(C.j,o,o,b,o,o,C.O),o,o,o,o,o,o,o),new T.bG(C.aG,L.cH("Powered by ",o,o,o,o,A.cb(o,o,C.j,o,o,o,o,o,l,o,o,a0.L(i).f.a.b/50,o,C.ag,o,o,!0,o,o,o,o,o,o),C.aD,o),o)],f),C.a4,C.dv,C.aO),o)],f),C.a4,C.dv,C.aO,C.ap),o,o),C.o,o,o,new S.cl(o,k,o,o,o,new T.i9(C.eZ,C.iR,C.cr,j,o,o),C.O),o,o,o,o,o,o,o),p.d)},
 gaD:function(){return null}}
