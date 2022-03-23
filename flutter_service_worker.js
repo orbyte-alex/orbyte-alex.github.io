@@ -3,8 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "index.html": "ad305c703fa1e1f83dee7ca9532ace3b",
-"/": "ad305c703fa1e1f83dee7ca9532ace3b",
+  "index.html": "8872117cc20769f40bfff3800c6e5c27",
+"/": "8872117cc20769f40bfff3800c6e5c27",
 "manifest.json": "2075c82e051179addf5823fb09dbc26d",
 "assets/AssetManifest.json": "5ec5e3d1abe1d98cfa159ca758b7c036",
 "assets/FontManifest.json": "30b3b4cdcf297c994bec491d2f68f464",
@@ -25,7 +25,7 @@ const RESOURCES = {
 "assets/assets/logo3.jpg": "ad0eac256aa0a001d131a556a5f93f00",
 "assets/assets/logo.jpg": "ad0eac256aa0a001d131a556a5f93f00",
 "assets/assets/logo2.jpg": "402e5217f82a6ed832d728d10b9e3292",
-"assets/NOTICES": "05bb943b5b3d4864d5fa9f18bf3fecd7",
+"assets/NOTICES": "3307cbd2b603fcad88a211e5df0c3af5",
 "assets/fonts/bb.ttf": "c3298605da35af3b8c020d7bce7e3876",
 "assets/fonts/Cairo.ttf": "2edd7ee30421da9700b12928ac0073db",
 "assets/fonts/aa.ttf": "ff0131af4e51059f7252f9d17bed1060",
@@ -38,7 +38,7 @@ const RESOURCES = {
 "icons/Icon-192.png": "0d069683bd629ee660f47dfba26783ff",
 "version.json": "086f79d66538755b90671739b8db0c2c",
 "favicon.png": "0dffb464eca220d369f95bcd8d925192",
-"main.dart.js": "f21ee65c8d9368bd3b99a0243788706f"
+"main.dart.js": "402d549ac79d90ada4b9e86ed23c0708"
 };
 
 // The application shell files that are downloaded before a service worker can
