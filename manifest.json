@@ -1,12 +1,12 @@
 {
-    "name": "orbyte",
-    "short_name": "orbyte",
+    "name": "ORBYTE",
+    "short_name": "ORBYTE",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
     "description": "ORBYTE",
-    "orientation": "portrait-primary",
+    "orientation": "landscape-primary",
     "prefer_related_applications": false,
     "icons": [
         {

@@ -3,51 +3,84 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "index.html": "8872117cc20769f40bfff3800c6e5c27",
-"/": "8872117cc20769f40bfff3800c6e5c27",
-"manifest.json": "2075c82e051179addf5823fb09dbc26d",
-"assets/AssetManifest.json": "5ec5e3d1abe1d98cfa159ca758b7c036",
-"assets/FontManifest.json": "30b3b4cdcf297c994bec491d2f68f464",
-"assets/packages/awesome_dialog/assets/flare/warning.flr": "68898234dacef62093ae95ff4772509b",
-"assets/packages/awesome_dialog/assets/flare/question.flr": "1c31ec57688a19de5899338f898290f0",
-"assets/packages/awesome_dialog/assets/flare/succes.flr": "ebae20460b624d738bb48269fb492edf",
-"assets/packages/awesome_dialog/assets/flare/warning_without_loop.flr": "c84f528c7e7afe91a929898988012291",
-"assets/packages/awesome_dialog/assets/flare/succes_without_loop.flr": "3d8b3b3552370677bf3fb55d0d56a152",
-"assets/packages/awesome_dialog/assets/flare/info_without_loop.flr": "cf106e19d7dee9846bbc1ac29296a43f",
-"assets/packages/awesome_dialog/assets/flare/info2.flr": "21af33cb65751b76639d98e106835cfb",
-"assets/packages/awesome_dialog/assets/flare/error.flr": "e3b124665e57682dab45f4ee8a16b3c9",
-"assets/packages/awesome_dialog/assets/flare/info.flr": "bc654ba9a96055d7309f0922746fe7a7",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "4fc935dad351697db8e181de23cfec50",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5ada3c4c2aaf5beada1fd8e25ad6ad09",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "6ffb39c8cb9e8d35ebbc2e35d2c34da5",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/assets/comp.jpg": "81a2b75257f2483c7be82d255cb85889",
-"assets/assets/logo3.jpg": "ad0eac256aa0a001d131a556a5f93f00",
-"assets/assets/logo.jpg": "ad0eac256aa0a001d131a556a5f93f00",
-"assets/assets/logo2.jpg": "402e5217f82a6ed832d728d10b9e3292",
-"assets/NOTICES": "3307cbd2b603fcad88a211e5df0c3af5",
-"assets/fonts/bb.ttf": "c3298605da35af3b8c020d7bce7e3876",
-"assets/fonts/Cairo.ttf": "2edd7ee30421da9700b12928ac0073db",
-"assets/fonts/aa.ttf": "ff0131af4e51059f7252f9d17bed1060",
-"assets/fonts/Cairor.ttf": "ff8fa0e134d04ac50030e27cefcf7a4c",
-"assets/fonts/Hacen.ttf": "ff0131af4e51059f7252f9d17bed1060",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/fonts/dd.ttf": "81b37df3b28d397659607391993eef22",
-"assets/fonts/cc.ttf": "71b4de66bd8bb9eec0c1e27914c5f546",
-"icons/Icon-512.png": "107a9e1198486c8ded5da70ef4975ea5",
+  "favicon.png": "107a9e1198486c8ded5da70ef4975ea5",
+"main.dart.js": "8ff7d33b5a06232729916b260885f910",
 "icons/Icon-192.png": "0d069683bd629ee660f47dfba26783ff",
-"version.json": "086f79d66538755b90671739b8db0c2c",
-"favicon.png": "0dffb464eca220d369f95bcd8d925192",
-"main.dart.js": "402d549ac79d90ada4b9e86ed23c0708"
+"icons/Icon-512.png": "107a9e1198486c8ded5da70ef4975ea5",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/assets/mapBelet.png": "52894020b071fcc3f06db915db2c013d",
+"assets/assets/a200.png": "1117a0a13e12714aee35daa4ef6abe5c",
+"assets/assets/a300.png": "c68bb2513ded18018ede8d2b2d4c0121",
+"assets/assets/a240.png": "3454b9ece1e600ff3c336f86cef8fd56",
+"assets/assets/a170.png": "760770e7ecdb750344fe193bd61d91a2",
+"assets/assets/a320.png": "e831db8a18a7f9accbfb6ff6d0828d57",
+"assets/assets/a140.png": "e02a7c40c032848e515a9713b7aee4c3",
+"assets/assets/a10.png": "578c820731d65a81c4b96237f2c46f52",
+"assets/assets/a70.png": "60e8cf9fac0674e8a40e0645b26c733a",
+"assets/assets/logo2.jpg": "402e5217f82a6ed832d728d10b9e3292",
+"assets/assets/a330.png": "d65f8c053cd75532bd966eaead596e29",
+"assets/assets/a210.png": "77982e893f59b412f06e146cd0a4eb38",
+"assets/assets/logo3.png": "402e5217f82a6ed832d728d10b9e3292",
+"assets/assets/a80.png": "51d2b732ba2208bbcb5d4053600f7f5c",
+"assets/assets/a280.png": "9dcad1a9e98a7a3fba330eba5a9d58e5",
+"assets/assets/a340.png": "ddb3f338ece2f2bef8b3f601f3b574f3",
+"assets/assets/a350.png": "4f49c891ce53893ffb39a3b683065d62",
+"assets/assets/a270.png": "8d1509c8b231665350a112b8a2ca40c6",
+"assets/assets/logo.png": "d9ce2a29f6ebe3f39d56521051b40fab",
+"assets/assets/a130.png": "0b9728678e43094f1cbfff35076fb83e",
+"assets/assets/a20.png": "7ddc434bfe65bc6d0be347a2b8516c4a",
+"assets/assets/a100.png": "5886ba43dfc60c84542795213e1b7f19",
+"assets/assets/logo3.jpg": "ad0eac256aa0a001d131a556a5f93f00",
+"assets/assets/a190.png": "9988a4738ee1e8a5a1e06e3401ee68a5",
+"assets/assets/a290.png": "14e90876c91a973cf2064a7098c4d68f",
+"assets/assets/a110.png": "15c620835cd6ff847a926610957e136c",
+"assets/assets/maptt.png": "da917c6f89a04becfc3d7e190b9875e4",
+"assets/assets/logo2.png": "d1fe041c8fc721d3acf6db0e4cc298f0",
+"assets/assets/mapt7awyat.png": "96d220f3e944ebf1f6823aaaff6dfc9a",
+"assets/assets/mapAlex.png": "530c330f23c4929f961a3e2974190aa2",
+"assets/assets/a360.png": "c31b2915e887aba76fde46b985795b47",
+"assets/assets/a160.png": "22439f3b724608fa59a20d8d4d3c5c0d",
+"assets/assets/a310.png": "0e5b1c8d45744236ce1057df44a4bb0a",
+"assets/assets/mapb.png": "93d6a21dbf94e8b9057930090dac2f19",
+"assets/assets/a150.png": "ea374392b7ce73954d315de0c16cfef0",
+"assets/assets/mapttTaslee7.png": "882de0ee5a9d0d249e427ee3b5210551",
+"assets/assets/a120.png": "75f4ec47666ef46196bf8e738f0921f1",
+"assets/assets/mapc.png": "ada99619234715ae9709d84ac80a6e2d",
+"assets/assets/a260.png": "5d86a8766cc94a3517952084a767f970",
+"assets/assets/a230.png": "21e763658858d013c37637d4d1e82826",
+"assets/assets/a30.png": "0bd0c4350aa76d76ced4a5336ec75d39",
+"assets/assets/a40.png": "9d7ccaccf6aafab1db695de6382efc16",
+"assets/assets/maptMakka.png": "da917c6f89a04becfc3d7e190b9875e4",
+"assets/assets/a220.png": "efaf24e36b0788ec02f351d73482c166",
+"assets/assets/a0.png": "738109d51a8e673e3cc407eef0bdafa2",
+"assets/assets/maptt5orda.png": "97a050c47b73c8c6a2a7b35de18f0639",
+"assets/assets/a50.png": "d0c5a717801af7abad4db42f38fdcf9b",
+"assets/assets/a250.png": "a59273e89cf693456b215fbbc90bf762",
+"assets/assets/logo.jpg": "18744c5849d967d82be63212dc3e32cd",
+"assets/assets/a90.png": "285c1f35ec9224eec5f4d2e663a9f31a",
+"assets/assets/a180.png": "29540690a0da6d8112f55fb6700cf5b7",
+"assets/assets/a60.png": "5841c0b5051c0a2d83ea2106ccd7fdde",
+"assets/fonts/arialB.ttf": "919ca656effd44a965b46ce224206fa2",
+"assets/fonts/arial.ttf": "fa3228aadde0db988e1822c2f736c131",
+"assets/fonts/Cairo.ttf": "2edd7ee30421da9700b12928ac0073db",
+"assets/fonts/Cairor.ttf": "ff8fa0e134d04ac50030e27cefcf7a4c",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
+"assets/fonts/cc.ttf": "71b4de66bd8bb9eec0c1e27914c5f546",
+"assets/AssetManifest.json": "a8137046c00b8051999e0ba3235f0fdd",
+"assets/shaders/ink_sparkle.frag": "0c48e72830515a3f792c3dbe33b794c1",
+"assets/NOTICES": "0ee16f246378c41d9ae39cf842a7e1ee",
+"assets/FontManifest.json": "354ebdd50fb452b5ca5fc5bd78f848b5",
+"manifest.json": "bb8ec6f391223ec0b7e6aa77b2a4f2ec",
+"index.html": "3c3edbbd704cfafbe5ac4b0716d8c678",
+"/": "3c3edbbd704cfafbe5ac4b0716d8c678",
+"version.json": "365c8cdb36c85659ce96be73e086a8f9"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -146,9 +179,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
