@@ -71,8 +71,8 @@ const RESOURCES = {
 "assets/NOTICES": "0ee16f246378c41d9ae39cf842a7e1ee",
 "assets/FontManifest.json": "354ebdd50fb452b5ca5fc5bd78f848b5",
 "manifest.json": "bb8ec6f391223ec0b7e6aa77b2a4f2ec",
-"index.html": "72edb04926909cd8bfd6627c1caf7c36",
-"/": "72edb04926909cd8bfd6627c1caf7c36",
+"index.html": "9c9076d6dd61dbddb40956d7f90090e0",
+"/": "9c9076d6dd61dbddb40956d7f90090e0",
 "version.json": "365c8cdb36c85659ce96be73e086a8f9"
 };
 
