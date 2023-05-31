@@ -4,7 +4,7 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "favicon.png": "107a9e1198486c8ded5da70ef4975ea5",
-"main.dart.js": "948863ba0aca5df2e76c9aeadaaa35ba",
+"main.dart.js": "01385984155a317fb0f4d6477df54442",
 "icons/Icon-192.png": "0d069683bd629ee660f47dfba26783ff",
 "icons/Icon-512.png": "107a9e1198486c8ded5da70ef4975ea5",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
@@ -72,8 +72,8 @@ const RESOURCES = {
 "assets/NOTICES": "4cdb88f3eff6a7eedd555d5e434ef642",
 "assets/FontManifest.json": "354ebdd50fb452b5ca5fc5bd78f848b5",
 "manifest.json": "bb8ec6f391223ec0b7e6aa77b2a4f2ec",
-"index.html": "f5c8efc2986c0b2f4bb713906b6449f3",
-"/": "f5c8efc2986c0b2f4bb713906b6449f3",
+"index.html": "55138297405e794010e23ee6810aa30b",
+"/": "55138297405e794010e23ee6810aa30b",
 "version.json": "365c8cdb36c85659ce96be73e086a8f9"
 };
 
