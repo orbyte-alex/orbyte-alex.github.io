@@ -60715,7 +60715,7 @@ Jb(a,b){var s=0,r=A.I(t.H),q=this,p,o,n,m,l,k,j,i
 var $async$fn=A.J(function(c,d){if(c===1)return A.F(d,r)
 while(true)switch(s){case 0:p=t.N
 o=t.z
-n=A.akQ(A.av(["file",A.alw(a,A.ZU("image","png",null),"test.png")],p,o))
+n=A.akQ(A.av(["file",A.alw(a,A.ZU("image","jpeg",null),"test.jpeg")],p,o))
 m=n.c
 l=t.mT
 m.push(new A.as("chatId","2"+b+"@c.us",l))
@@ -68078,7 +68078,7 @@ B.fq=new A.mv(5,"spaceEvenly")
 B.Lk=new A.uu(0,"min")
 B.r=new A.uu(1,"max")
 B.fr=new A.DW(1,"max")
-B.Ll=new A.as("fileName","ORBYTE.png",t.mT)
+B.Ll=new A.as("fileName","ORBYTE.jpeg",t.mT)
 B.BB=A.a(s(["BU","DD","FX","TP","YD","ZR"]),t.s)
 B.aR=new A.bc(6,{BU:"MM",DD:"DE",FX:"FR",TP:"TL",YD:"YE",ZR:"CD"},B.BB,t.li)
 B.cA=new A.aY([1611,1611,1612,1612,1613,1613,1614,1614,1615,1615,1616,1616,1617,1617,1618,1618,1648,1648,64606,64606,64607,64607,64608,64608,64609,64609,64610,64610,64611,64611],t.KL)
